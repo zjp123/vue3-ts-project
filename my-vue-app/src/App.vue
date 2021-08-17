@@ -22,7 +22,7 @@ export default defineComponent({
   },
   mounted () {
     // this.checkAuth()
-    // console.log(Cookies, Cookies.get('foo'), 'ggg')
+    console.log(Cookies, Cookies.get('foo'), 'ggg')
     // http%3A%2F%2Fwww.zjpzjp.com
     // window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1f0b3056e2b9b0cd&redirect_uri=http%3A%2F%2F127.0.0.1%3A3000&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect"
     // window.location.href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx1f0b3056e2b9b0cd&redirect_uri=http%3A%2F%2Fwww.zjpzjptest.com%3A3000&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect"
